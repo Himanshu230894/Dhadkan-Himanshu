@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_weight="4"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:text="Already Registered ? " />-->
+
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:text="sign_in" />-->
+            <!--</LinearLayout>-->
+
+
+            <EditText
+                android:backgroundTint="@color/colortheme"
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName">
+
+            </EditText>
+
+
+            <EditText
+                android:backgroundTint="@color/colortheme"
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:backgroundTint="@color/colortheme"
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Date Of Birth"
+                android:inputType="none"
+                android:focusable="false"/>
+
+            <RadioGroup
+
+                android:id="@+id/radioSex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="male"
+                    android:buttonTint="#EB1C23"/>
+
+                <RadioButton
+                    android:buttonTint="@color/colortheme"
+                    android:id="@+id/radioFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="female" />
+
+            </RadioGroup>
+
+            <EditText
+                android:backgroundTint="@color/colortheme"
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Email (Optional)"
+                android:inputType="textEmailAddress" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:backgroundTint="@color/colortheme"
+                    android:id="@+id/spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="+91 -" />
+
+                <EditText
+                    android:backgroundTint="@color/colortheme"
+                    android:id="@+id/editText5"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="5"
+                    android:hint="Mobile"
+                    android:inputType="phone" />
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:backgroundTint="@color/colortheme"
+                android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:gravity="center"
+                    android:backgroundTint="@color/colortheme"
+                    android:id="@+id/spinner2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="+91 -" />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="5"
+                    android:hint="Doctor's Number"
+                    android:inputType="phone" />
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:backgroundTint="@color/colortheme"
+                android:id="@+id/editText10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Doctor's Name"
+                android:inputType="none"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="20sp"-->
+                <!--android:text="Set reminders for health records" />-->
+
+
+            <!--<Spinner-->
+                <!--android:backgroundTint="@color/colortheme"-->
+                <!--android:id="@+id/spinner3"-->
+                <!--android:minHeight="60dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:entries="@array/reminders" />-->
+
+            <!--<EditText-->
+                <!--android:backgroundTint="@color/colortheme"-->
+                <!--android:id="@+id/editText11"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:ems="10"-->
+                <!--android:hint="Time"-->
+                <!--android:inputType="time" />-->
+
+
+            <Button
+
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Register"
+                android:textSize="20sp"
+                android:background="@drawable/my_btn"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

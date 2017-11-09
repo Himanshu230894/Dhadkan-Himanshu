@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/my_dialog_box"
+    android:weightSum="1"
+    >
+
+
+
+
+    <EditText
+        android:backgroundTint="@color/colortheme"
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Enter doctor's number"
+        android:inputType="number" />
+
+    <EditText
+        android:backgroundTint="@color/colortheme"
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="none"
+        android:focusable="false"
+        android:clickable="false"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/my_btn"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Done"
+            android:id="@+id/login"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "284592148544",
+    "firebase_url": "https://dhadkan-f4e12.firebaseio.com",
+    "project_id": "dhadkan-f4e12",
+    "storage_bucket": "dhadkan-f4e12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284592148544:android:5cdee55a61bbe56b",
+        "android_client_info": {
+          "package_name": "com.example.hulksmash.dhadkan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284592148544-qoiplqop92eik4du3bppcsd556hl4mh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hulksmash.dhadkan",
+            "certificate_hash": "51eb7089fffad147c92ac3b83259ef1c468398e6"
+          }
+        },
+        {
+          "client_id": "284592148544-j0u0omo79015oevdpmtkkqde1haeboom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOc2YmJ8-g-q8iopEz8F-QNRNO00Yxl_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284592148544-j0u0omo79015oevdpmtkkqde1haeboom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

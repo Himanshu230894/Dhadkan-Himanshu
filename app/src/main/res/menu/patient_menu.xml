@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/empty"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="patient_menu">
+
+        <menu>
+
+            <item android:id="@+id/action_change_doctor"
+                android:icon="@android:drawable/ic_menu_add"
+                app:showAsAction="ifRoom"
+                android:title="Change doctor" />
+
+            <item android:id="@+id/action_logout"
+                android:icon="@android:drawable/ic_menu_delete"
+                app:showAsAction="ifRoom"
+                android:title="Logout" />
+
+        </menu>
+
+    </item>
+
+</menu>

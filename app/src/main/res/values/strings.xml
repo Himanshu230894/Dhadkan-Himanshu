@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dhadkan</string>
+    <string-array name="mobile_initials">
+        <item>+91</item>
+        <item>+911</item>
+    </string-array>
+    <string-array name="reminders">
+        <item>Daily</item>
+        <item>3 Days</item>
+    </string-array>
+    <string-array name="weights">
+        <item>kg</item>
+        <item>pounds</item>
+    </string-array>
+</resources>
